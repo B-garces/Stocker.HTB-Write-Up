@@ -61,6 +61,9 @@ Stocker HTB Writeup
 
 - After messing with the file paths I checked the local path that the webapp was being hosted on to display the main JS file `index.js` that was being presented within the directory. Using `<embed height=1000px width=1000px src=file:///var/www/dev/index.js></embed>` it shows some interesting things.  
 
+![image](https://user-images.githubusercontent.com/61332852/226733584-d746c2bb-b3fa-41c7-b6c7-5b70041a0d72.png)
+
+
 - We see that we have a password for a user on the system that we can start using to try to SSH into one of the users behind the web application. Since we saw very early on that `Angoose` was the head of the IT department and one of the users that showed after displaying the `passwd` file we can try his username first with the password we found. After exploring the users home folder we find our first flag.
 
 ![image](https://user-images.githubusercontent.com/61332852/226730781-29be338c-d6ae-4bc1-9922-7d2daf3af9cb.png)
