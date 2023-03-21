@@ -26,7 +26,7 @@ Stocker HTB Writeup
 ![image](https://user-images.githubusercontent.com/61332852/226728689-fb45bed0-5580-4350-bc5a-6a46adc81627.png)
  
 
-- The new sub domain led to a login page that I began to inspect the page to see if there was anything interesting on the front end. To figure out how the login page was working I submitted some random credentials into the login page to see what the web traffic looked like going to the server.
+- The new sub domain leads to a login page that I began to inspect the page to see if there was anything interesting on the front end. To figure out how the login page was working I submitted some random credentials into the login page to see what the web traffic looked like going to the server.
 
 ![image](https://user-images.githubusercontent.com/61332852/226729130-9d88ef0a-466b-46d4-b632-270bd2702b36.png)
 
