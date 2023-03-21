@@ -6,7 +6,7 @@ Stocker HTB Writeup
 
 ![image](https://user-images.githubusercontent.com/61332852/226727064-2a9bfc88-936a-4366-a85d-42f4d4ad5f62.png)
 
-- We get the basic two ports open SSH and a HTTP. I first checked to see if there was any vulnerabilities with the services running first but nothing jumped out yet. So I went to enumerate the http server running. But first added the IP to my hosts file. 
+- We get the basic two ports open `SSH` and `HTTP`. I first checked to see if there was any vulnerabilities with the services running first but nothing jumped out yet. So I went to enumerate the http server running. But first added the IP to my hosts file. 
 
 ![image](https://user-images.githubusercontent.com/61332852/226728036-fb25bf70-d75f-48ec-af3e-0556a0e99245.png)
 
