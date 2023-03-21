@@ -3,7 +3,7 @@ Write up Report for the HackTheBox Machine Stocker
 Stocker HTB Writeup
 
 Started with a Nmap scan  
-![image](https://user-images.githubusercontent.com/61332852/226726912-4dfe65a2-7a9d-44d0-98da-0450ec9ed89a.png)
+![image](https://user-images.githubusercontent.com/61332852/226727064-2a9bfc88-936a-4366-a85d-42f4d4ad5f62.png)
 
 We get the basic two ports open SSH and a HTTP server. I first checked to see if there was any vulnerabilities with the services running first but nothing jumped out yet. So I went to enumerate the http server running. But first added the IP to my hosts file.  
 
